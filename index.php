@@ -62,7 +62,7 @@ $person = isset($_POST['person']) ? $_POST['person'] : null;
 	</form>
 
 	<?php if ($person): ?>
-		<!-- addded htmlentities for formatting -->
+		<!-- added htmlentities for formatting -->
 		<p><strong>Person</strong> <?=htmlentities($person['first_name']);?>, <?=htmlentities($person['last_name']);?>, <?=htmlentities($person['email']);?></p>
 	<?php endif; ?>
 
